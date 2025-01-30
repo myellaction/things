@@ -200,8 +200,8 @@ table {
 
 @font-face {
   font-family: Inter;
-  src: url("/_next/static/media/Inter-Regular.079e8ca1.eot");
-  src: local(Inter Regular), local(Inter-Regular), url("/_next/static/media/Inter-Regular.079e8ca1.eot") format("embedded-opentype"), url("/_next/static/media/Inter-Regular.1472cf17.woff2") format("woff2"), url("/_next/static/media/Inter-Regular.c5a649cc.woff") format("woff"), url("/_next/static/media/Inter-Regular.0cedb4a3.ttf") format("truetype");
+  src: url("../media/Inter-Regular.079e8ca1.eot");
+  src: local(Inter Regular), local(Inter-Regular), url("../media/Inter-Regular.079e8ca1.eot") format("embedded-opentype"), url("../media/Inter-Regular.1472cf17.woff2") format("woff2"), url("../media/Inter-Regular.c5a649cc.woff") format("woff"), url("../media/Inter-Regular.0cedb4a3.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -209,8 +209,8 @@ table {
 
 @font-face {
   font-family: Inter;
-  src: url("/_next/static/media/Inter-SemiBold.5c609043.eot");
-  src: local(Inter Semi Bold), local(Inter-SemiBold), url("/_next/static/media/Inter-SemiBold.5c609043.eot") format("embedded-opentype"), url("/_next/static/media/Inter-SemiBold.9ea85984.woff2") format("woff2"), url("/_next/static/media/Inter-SemiBold.9c59084c.woff") format("woff"), url("/_next/static/media/Inter-SemiBold.e6107b55.ttf") format("truetype");
+  src: url("../media/Inter-SemiBold.5c609043.eot");
+  src: local(Inter Semi Bold), local(Inter-SemiBold), url("../media/Inter-SemiBold.5c609043.eot") format("embedded-opentype"), url("../media/Inter-SemiBold.9ea85984.woff2") format("woff2"), url("../media/Inter-SemiBold.9c59084c.woff") format("woff"), url("../media/Inter-SemiBold.e6107b55.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -218,8 +218,8 @@ table {
 
 @font-face {
   font-family: Inter;
-  src: url("/_next/static/media/Inter-Bold.ff18b038.eot");
-  src: local(Inter Bold), local(Inter-Bold), url("/_next/static/media/Inter-Bold.ff18b038.eot") format("embedded-opentype"), url("/_next/static/media/Inter-Bold.596f1724.woff2") format("woff2"), url("/_next/static/media/Inter-Bold.2f59686c.woff") format("woff"), url("/_next/static/media/Inter-Bold.d489a1bc.ttf") format("truetype");
+  src: url("../media/Inter-Bold.ff18b038.eot");
+  src: local(Inter Bold), local(Inter-Bold), url("../media/Inter-Bold.ff18b038.eot") format("embedded-opentype"), url("../media/Inter-Bold.596f1724.woff2") format("woff2"), url("../media/Inter-Bold.2f59686c.woff") format("woff"), url("../media/Inter-Bold.d489a1bc.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -227,8 +227,8 @@ table {
 
 @font-face {
   font-family: Inter;
-  src: url("/_next/static/media/Inter-Medium.dcc1f0e3.eot");
-  src: local(Inter Medium), local(Inter-Medium), url("/_next/static/media/Inter-Medium.dcc1f0e3.eot") format("embedded-opentype"), url("/_next/static/media/Inter-Medium.8745370b.woff2") format("woff2"), url("/_next/static/media/Inter-Medium.fc839b65.woff") format("woff"), url("/_next/static/media/Inter-Medium.e6831646.ttf") format("truetype");
+  src: url("../media/Inter-Medium.dcc1f0e3.eot");
+  src: local(Inter Medium), local(Inter-Medium), url("../media/Inter-Medium.dcc1f0e3.eot") format("embedded-opentype"), url("../media/Inter-Medium.8745370b.woff2") format("woff2"), url("../media/Inter-Medium.fc839b65.woff") format("woff"), url("../media/Inter-Medium.e6831646.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -236,7 +236,7 @@ table {
 
 @font-face {
   font-family: Playfair;
-  src: local(Playfair Italic), local(Playfair Italic), url("/_next/static/media/Playfair-Italic.6e77ec09.ttf") format("truetype");
+  src: local(Playfair Italic), local(Playfair Italic), url("../media/Playfair-Italic.6e77ec09.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -244,7 +244,7 @@ table {
 
 @font-face {
   font-family: Playfair Display;
-  src: local(PlayfairDisplay SemiBoldItalic), local(PlayfairDisplay-SemiBoldItalic), url("/_next/static/media/PlayfairDisplay-SemiBoldItalic.a784c8b4.ttf") format("truetype");
+  src: local(PlayfairDisplay SemiBoldItalic), local(PlayfairDisplay-SemiBoldItalic), url("../media/PlayfairDisplay-SemiBoldItalic.a784c8b4.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
