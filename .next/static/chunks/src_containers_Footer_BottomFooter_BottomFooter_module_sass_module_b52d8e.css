@@ -54,6 +54,16 @@
   transition: all .3s;
 }
 
+@media (width <= 1199px) {
+  .BottomFooter-module-sass-module__IiKAyW__offer:hover, .BottomFooter-module-sass-module__IiKAyW__confident:hover {
+    color: #0eb553d9;
+  }
+
+  .BottomFooter-module-sass-module__IiKAyW__offer:hover:before, .BottomFooter-module-sass-module__IiKAyW__confident:hover:before {
+    width: 100%;
+  }
+}
+
 @media (width <= 991px) {
   .BottomFooter-module-sass-module__IiKAyW__info {
     flex-direction: column;

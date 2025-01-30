@@ -30,7 +30,10 @@ const Scroll = () => {
         window.scrollTo({top: 0, behavior});
         if(isMobileDevice){
             document.body.style.overflow = 'hidden';
-            setTimeout(() => document.body.style.overflow = '', 1);
+            setTimeout(() => {
+                document.body.style.overflow = '';
+                window.scrollTo({top: 0});
+            }, 10);
         }
     }
 
