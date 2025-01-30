@@ -13,9 +13,9 @@ export default function RootLayout({ children }) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-      <div className="app">
-        {children}
-      </div>
+    <div className="app">
+      {children}
+    </div>
       {/*Eruda*/}
       <script src="//cdn.jsdelivr.net/npm/eruda"></script>
       <script>eruda.init();</script>
