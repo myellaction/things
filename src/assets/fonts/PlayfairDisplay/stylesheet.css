@@ -1,7 +1,11 @@
 @font-face {
     font-family: 'Playfair Display';
-    src: local('PlayfairDisplay SemiBoldItalic'), local('PlayfairDisplay-SemiBoldItalic'),
-        url('PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+    src: url('PlayfairDisplay-SemiBoldItalic.eot');
+    src: local('PlayfairDisplay-SemiBoldItalic'),
+    url('PlayfairDisplay-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-SemiBoldItalic.woff') format('woff'),
+    url('PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
