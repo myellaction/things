@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/src/app/Home.module.sass.module.css"],"sourcesContent":[".search{margin-bottom:60px}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/src/containers/Content/SearchPanel/SearchPanel.module.sass.module.css"],"sourcesContent":[".block{background-color:#fff;padding:20px 0}.wrapper{display:flex;align-items:center}.search{flex-grow:1;margin-right:20px}.select{width:256px;margin-right:20px}.button{width:160px;background-color:#0eb553;height:50px;border-radius:8px;color:#fff;transition:all .3s}.button:hover{opacity:.8;transition:all .3s}"],"names":[],"mappings":"AAAA;;;;;AAA4C;;;;;AAAyC;;;;;AAAsC;;;;;AAAsC;;;;;;;;;AAAyG"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/src/containers/Content/Search/Search.module.sass.module.css"],"sourcesContent":[".block{display:flex;align-items:center;height:50px;border:1px solid #e2e8f0;border-radius:8px;padding:0 12px}.imageWrapper{padding:4px}.separator{margin:0 12px;color:#64748b;font-size:14px}.input{width:100%;font-size:14px}"],"names":[],"mappings":"AAAA;;;;;;;;;AAA6G;;;;AAA0B;;;;;;AAAsD"}},
+    {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 69, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/src/containers/Content/PopularCats/PopularCats.module.sass.module.css"],"sourcesContent":[".cats{height:207px;display:grid;grid-template-columns:repeat(auto-fill, minmax(180px, 1fr));gap:20px;row-gap:32px;justify-content:space-between;margin-bottom:72px}.blockTitle{margin-bottom:40px}.item{width:160px;margin:0 auto}.imageWrapper{width:160px;height:160px;background-color:#e8ecf1;border-radius:100%;display:flex;align-items:center;justify-content:center;margin-bottom:26px}.title{font-size:17px;text-align:center}"],"names":[],"mappings":"AAAA;;;;;;;;;;AAAmK;;;;AAA+B;;;;;AAAgC;;;;;;;;;;;AAA6J"}},
+    {"offset": {"line": 103, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

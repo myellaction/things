@@ -1,0 +1,129 @@
+@use "normalize.css" as *
+@use "reset.css" as *
+@use "variables.sass" as *
+
+html
+    overflow-x: hidden
+    margin-right: calc(-1 * (100vw - 100%))
+
+body
+    font-family: 'Inter', sans-serif
+    color: $black
+    background-color: $bg-color
+    touch-action: manipulation
+    height: 100%
+
+html, *
+    box-sizing: border-box
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    word-break: break-word
+
+img
+    display: block
+
+a
+    color: $black
+    text-decoration: none
+    display: block
+
+h1
+    font-size: 34px
+    font-weight: 600
+    text-align: center
+
+h2
+    font-size: 28px
+    font-weight: 600
+    text-align: center
+
+h3
+    font-size: 21px
+    font-weight: 600
+    text-align: center
+
+input, textarea
+    border: none
+    outline: none
+    padding: 0
+    color: $black
+    appearance: none
+
+    &::placeholder
+        color: $slate
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus
+    -webkit-text-fill-color: $black
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset
+    box-shadow: 0 0 0px 1000px #fff inset
+    transition: background-color 5000s ease-in-out 0s
+    caret-color: $black
+
+button
+    border: none
+    outline: none
+    background: none
+    cursor: pointer
+    padding: 0
+
+.container
+    padding: 0 40px
+
+.wrapper
+    max-width: 1400px
+    margin: 0 auto
+
+    &_hidden
+        overflow: hidden
+
+.left-container
+    left: max(40px, (100vw - 1400px) / 2)
+
+.right-container
+    right: max(40px, (100vw - 1400px) / 2)
+
+.medium
+    font-weight: 500
+
+.semi-bold
+    font-weight: 600
+
+
+//media
+@media(max-width: 1199px)
+    .container
+        padding: 0 20px
+
+    .wrapper
+        width: 100%
+
+    .left-container
+        left: 20px
+
+    .right-container
+        right: 20px
+
+@media(max-width: 575px)
+    h1
+        font-size: 24px
+
+    h2
+        font-size: 21px
+
+@media(max-width: 400px)
+    .container
+        padding: 0 15px
+
+    .left-container
+        left: 15px
+
+    .right-container
+        right: 15px

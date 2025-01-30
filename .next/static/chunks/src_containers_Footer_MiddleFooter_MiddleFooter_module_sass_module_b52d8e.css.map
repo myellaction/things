@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/containers/Footer/MiddleFooter/MiddleFooter.module.sass.module.css"],"sourcesContent":[".rightPart{display:flex;flex-direction:column;align-items:flex-end}.socialTitle{color:hsla(0,0%,100%,.75);font-size:14px;line-height:130%;margin-bottom:18px}.socials{display:flex;align-items:center;margin-bottom:26px}.social{margin-right:15px}.social:last-child{margin-right:0}@media(max-width: 767px){.rightPart{align-items:center}.langs{order:1;margin-bottom:30px}.socialTitle{order:2}.socials{order:3;margin-bottom:0}}"],"names":[],"mappings":"AAAA;;;;;;AAAmE;;;;;;;AAA0F;;;;;;AAA4D;;;;AAA0B;;;;AAAkC;EAAyB;;;;EAA8B;;;;;EAAkC;;;;EAAqB"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

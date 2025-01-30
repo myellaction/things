@@ -1,0 +1,41 @@
+@use '@sass/variables.sass' as *
+
+.block
+    display: flex
+    align-items: center
+
+.separator
+    margin: 0 10px
+
+    &_black
+        color: rgba(242, 244, 245, 0.25)
+
+.lang_light, .lang_black
+    cursor: pointer
+    transition: all 0.3s
+
+.lang_light
+    &:hover
+        color: $slate
+        transition: all 0.3s
+
+    &_active
+        color: $slate
+
+.lang_black
+    color: $green
+
+    &:hover
+        color: rgba(242, 244, 245, 0.25)
+        transition: all 0.3s
+
+    &_active
+        color: rgba(242, 244, 245, 0.25)
+
+//media
+@media(max-width: 575px)
+    .block
+        font-size: 14px
+
+    .separator
+        margin: 0 11px

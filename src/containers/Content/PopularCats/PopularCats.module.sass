@@ -1,0 +1,52 @@
+.cats
+    margin-bottom: 72px
+
+.blockTitle
+    margin-bottom: 40px
+
+.imageWrapper
+    width: 160px
+    height: 160px
+    background-color: #E8ECF1
+    border-radius: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 26px
+
+.title
+    font-size: 17px
+    text-align: center
+
+.button
+    display: flex
+    justify-content: center
+
+
+//media
+@media(max-width: 991px)
+    .imageWrapper
+        height: 120px
+        width: 120px
+
+        img
+            transform: scale(75%)
+
+@media(max-width: 575px)
+    .blockTitle
+        margin-bottom: 25px
+
+    .imageWrapper
+        height: 90px
+        width: 90px
+        margin-bottom: 6px
+
+        img
+            transform: scale(56%)
+
+    .title
+        font-size: 14px
+
+    .cats
+        margin-bottom: 20px
+

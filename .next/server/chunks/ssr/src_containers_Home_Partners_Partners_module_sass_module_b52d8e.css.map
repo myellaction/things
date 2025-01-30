@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/containers/Home/Partners/Partners.module.sass.module.css"],"sourcesContent":[".blockTitle{margin-bottom:40px}.items{display:flex;align-items:center;justify-content:center;flex-wrap:wrap}.item{width:14.4%;height:auto;margin-right:5%}.item:last-child{margin-right:0}@media(max-width: 991px){.items{display:grid;grid-template-columns:repeat(auto-fill, minmax(170px, 1fr));column-gap:40px;row-gap:20px}.item{width:100%;height:auto;margin-right:0}}@media(max-width: 575px){.items{grid-template-columns:repeat(auto-fill, minmax(160px, 1fr));column-gap:40px;row-gap:20px}}"],"names":[],"mappings":"AAAA;;;;AAA+B;;;;;;;AAA6E;;;;;;AAA8C;;;;AAAgC;EAAyB;;;;;;;EAA6G;;;;;;;AAA6C;EAAyB"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

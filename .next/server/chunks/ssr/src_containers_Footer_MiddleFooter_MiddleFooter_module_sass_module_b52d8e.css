@@ -1,0 +1,49 @@
+/* [project]/src/containers/Footer/MiddleFooter/MiddleFooter.module.sass.module.css [app-client] (css) */
+.MiddleFooter-module-sass-module__JHYspG__rightPart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.MiddleFooter-module-sass-module__JHYspG__socialTitle {
+  color: #ffffffbf;
+  font-size: 14px;
+  line-height: 130%;
+  margin-bottom: 18px;
+}
+
+.MiddleFooter-module-sass-module__JHYspG__socials {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.MiddleFooter-module-sass-module__JHYspG__social {
+  margin-right: 15px;
+}
+
+.MiddleFooter-module-sass-module__JHYspG__social:last-child {
+  margin-right: 0;
+}
+
+@media (width <= 767px) {
+  .MiddleFooter-module-sass-module__JHYspG__rightPart {
+    align-items: center;
+  }
+
+  .MiddleFooter-module-sass-module__JHYspG__langs {
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .MiddleFooter-module-sass-module__JHYspG__socialTitle {
+    order: 2;
+  }
+
+  .MiddleFooter-module-sass-module__JHYspG__socials {
+    order: 3;
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Footer_MiddleFooter_MiddleFooter_module_sass_module_b52d8e.css.map*/

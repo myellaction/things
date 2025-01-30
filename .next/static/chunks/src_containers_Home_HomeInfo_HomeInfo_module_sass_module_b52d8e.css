@@ -1,0 +1,27 @@
+/* [project]/src/containers/Home/HomeInfo/HomeInfo.module.sass.module.css [app-client] (css) */
+.HomeInfo-module-sass-module__K-qAWa__desc {
+  text-align: center;
+}
+
+.HomeInfo-module-sass-module__K-qAWa__title {
+  margin-bottom: 40px;
+}
+
+.HomeInfo-module-sass-module__K-qAWa__desc {
+  font-size: 14px;
+  line-height: 150%;
+  color: #64748b;
+}
+
+@media (width <= 575px) {
+  .HomeInfo-module-sass-module__K-qAWa__title {
+    margin-bottom: 30px;
+  }
+
+  .HomeInfo-module-sass-module__K-qAWa__desc {
+    font-size: 13px;
+    line-height: 160%;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Home_HomeInfo_HomeInfo_module_sass_module_b52d8e.css.map*/

@@ -1,0 +1,68 @@
+/* [project]/src/pageComponents/Home/Home.module.sass.module.css [app-client] (css) */
+.Home-module-sass-module__drqoyG__search {
+  margin-bottom: 60px;
+  box-shadow: 0 4px 10px #0000000f;
+  -webkit-box-shadow: 0 4px 10px #0000000f;
+}
+
+.Home-module-sass-module__drqoyG__cats {
+  margin-bottom: 60px;
+}
+
+.Home-module-sass-module__drqoyG__articlesTitle {
+  margin-bottom: 40px;
+}
+
+.Home-module-sass-module__drqoyG__articles {
+  margin-bottom: 60px;
+}
+
+.Home-module-sass-module__drqoyG__info {
+  margin-bottom: 75px;
+}
+
+.Home-module-sass-module__drqoyG__questions {
+  margin-bottom: 60px;
+}
+
+.Home-module-sass-module__drqoyG__partners {
+  margin-bottom: 55px;
+}
+
+@media (width <= 991px) {
+  .Home-module-sass-module__drqoyG__search {
+    display: none;
+  }
+
+  .Home-module-sass-module__drqoyG__slider {
+    margin-bottom: 60px;
+  }
+}
+
+@media (width <= 575px) {
+  .Home-module-sass-module__drqoyG__slider {
+    margin-bottom: 30px;
+  }
+
+  .Home-module-sass-module__drqoyG__cats {
+    margin-bottom: 30px;
+  }
+
+  .Home-module-sass-module__drqoyG__articlesTitle {
+    margin-bottom: 25px;
+  }
+
+  .Home-module-sass-module__drqoyG__articles {
+    margin-bottom: 40px;
+  }
+
+  .Home-module-sass-module__drqoyG__info {
+    margin-bottom: 65px;
+  }
+
+  .Home-module-sass-module__drqoyG__questions {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=src_pageComponents_Home_Home_module_sass_module_b52d8e.css.map*/

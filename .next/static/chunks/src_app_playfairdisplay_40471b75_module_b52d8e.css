@@ -1,0 +1,27 @@
+/* [project]/src/app/playfairdisplay_40471b75.module.css [app-client] (css) */
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url("../media/PlayfairDisplay_SemiBoldItalic-s.p.a784c8b4.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: PlayfairDisplay Fallback;
+  src: local(Arial);
+  ascent-override: 108.64%;
+  descent-override: 25.2%;
+  line-gap-override: 0.0%;
+  size-adjust: 99.59%;
+}
+
+.playfairdisplay_40471b75-module__GmT7xW__className {
+  font-family: PlayfairDisplay, PlayfairDisplay Fallback;
+}
+
+.playfairdisplay_40471b75-module__GmT7xW__variable {
+  --playfair-display-font: "PlayfairDisplay", "PlayfairDisplay Fallback";
+}
+
+/*# sourceMappingURL=src_app_playfairdisplay_40471b75_module_b52d8e.css.map*/

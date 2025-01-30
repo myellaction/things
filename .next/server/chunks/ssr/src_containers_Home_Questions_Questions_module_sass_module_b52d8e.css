@@ -1,0 +1,99 @@
+/* [project]/src/containers/Home/Questions/Questions.module.sass.module.css [app-client] (css) */
+.Questions-module-sass-module__4v_PYa__blockTitle {
+  margin-bottom: 40px;
+}
+
+.Questions-module-sass-module__4v_PYa__items {
+  box-shadow: 0 4px 10px #0000000f;
+  -webkit-box-shadow: 0 4px 10px #0000000f;
+  background-color: #fff;
+}
+
+.Questions-module-sass-module__4v_PYa__item {
+  background-color: #fff;
+  transition: all .3s;
+}
+
+.Questions-module-sass-module__4v_PYa__item_active {
+  background-color: #fbfbfb;
+  transition: all .3s;
+}
+
+.Questions-module-sass-module__4v_PYa__itemHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 14px 24px 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Questions-module-sass-module__4v_PYa__leftPart {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.Questions-module-sass-module__4v_PYa__questionImg {
+  margin-right: 20px;
+}
+
+.Questions-module-sass-module__4v_PYa__title {
+  font-size: 17px;
+  line-height: 140%;
+}
+
+.Questions-module-sass-module__4v_PYa__arrowWrapper {
+  padding: 9px 7.25px;
+}
+
+.Questions-module-sass-module__4v_PYa__answerWrapper {
+  height: 0;
+  transition: all .3s;
+  overflow: hidden;
+}
+
+.Questions-module-sass-module__4v_PYa__answer {
+  padding-left: 74px;
+  padding-right: 74px;
+  font-size: 14px;
+  color: #64748b;
+  line-height: 170%;
+  transition: all .3s;
+  padding-bottom: 55px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Questions-module-sass-module__4v_PYa__item_active .Questions-module-sass-module__4v_PYa__answer {
+  opacity: 1;
+  visibility: visible;
+  transition: all .3s;
+}
+
+@media (width <= 575px) {
+  .Questions-module-sass-module__4v_PYa__blockTitle {
+    margin-bottom: 25px;
+  }
+
+  .Questions-module-sass-module__4v_PYa__itemHeader {
+    padding: 24px 10px;
+  }
+
+  .Questions-module-sass-module__4v_PYa__answer {
+    padding: 0 35px 30px 44px;
+    font-size: 13px;
+    line-height: 160%;
+  }
+
+  .Questions-module-sass-module__4v_PYa__questionImg {
+    margin-right: 10px;
+  }
+
+  .Questions-module-sass-module__4v_PYa__title {
+    font-size: 14px;
+    line-height: 170%;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Home_Questions_Questions_module_sass_module_b52d8e.css.map*/

@@ -1,0 +1,113 @@
+@use '@sass/variables' as *
+
+.block
+    position: fixed
+    top: 0
+    right: -20%
+    background-image: url("../../../assets/img/footer-bg.png")
+    background-repeat: no-repeat
+    background-size: cover
+    z-index: 10
+    margin-right: calc(-1 * (100vw - 100%))
+    width: 40%
+    transition: opacity 0s, visibility 0s, right 0s
+    opacity: 0
+    height: 100%
+    visibility: hidden
+    overscroll-behavior-y: none
+    overflow-y: auto
+
+    &_active
+        right: 0
+        transition: all 0.3s, opacity 0s
+        opacity: 1
+        visibility: visible
+
+.menuBg
+    position: fixed
+    height: 100%
+    top: 0
+    left: 0
+    background-color: $green
+    width: 100vw
+    z-index: 9
+    opacity: 0
+    visibility: hidden
+
+    &_active
+        opacity: 0.3
+        visibility: visible
+        transition: all 0.3s
+
+.wrapper
+    padding: 0 max(40px, (100vw - 1400px) / 2) 0 40px
+
+.headerBorder
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25)
+
+.header
+    height: 70px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    user-select: none
+
+.logo
+    width: 100px
+    height: auto
+
+.rightPart
+    display: flex
+    align-items: center
+
+.menuTitle
+    font-size: 14px
+    color: #fff
+    margin-right: 15px
+
+.closeWrapper
+    width: 40px
+    height: 40px
+    border-radius: 8px
+    border: 1px solid rgba(226, 232, 240, 0.25)
+    display: flex
+    align-items: center
+    justify-content: center
+    cursor: pointer
+
+.menuFooter
+    display: none
+
+//media
+@media(max-width: 1199px)
+    .wrapper
+        padding: 0 20px
+
+    .block
+        width: 60%
+
+@media(max-width: 991px)
+    .block
+        width: 70%
+
+@media(max-width: 767px)
+    .block
+        width: 100%
+
+    .menuFooter
+        display: block
+        border-top: 1px solid rgba(255, 255, 255, 0.25)
+        padding-top: 35px
+        padding-bottom: 25px
+
+    .middleFooter
+        margin-bottom: 30px
+
+@media(max-width: 575px)
+    .menuFooter
+        padding-bottom: 20px
+
+@media(max-width: 400px)
+    .closeWrapper
+        transform: scale(86%)
+

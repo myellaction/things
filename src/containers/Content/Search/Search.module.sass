@@ -1,0 +1,51 @@
+@use '@sass/variables' as *
+
+.block
+    display: flex
+    align-items: center
+    height: 50px
+    border: 1px solid $border-color
+    border-radius: 8px
+    padding: 0 12px
+
+    &_mobile
+        background-color: rgba(255, 255, 255, 0.2)
+        border: none
+
+        .input
+            background-color: transparent
+            color: #fff
+
+            &:-webkit-autofill,
+            &:-webkit-autofill:hover,
+            &:-webkit-autofill:focus
+                -webkit-text-fill-color: #fff
+                -webkit-box-shadow: 0 0 0px 1000px transparent inset
+                box-shadow: 0 0 0px 1000px transparent inset
+                transition: background-color 5000s ease-in-out 0s
+                caret-color: #fff
+
+            &::placeholder
+                color: rgba(255, 255, 255, 0.75)
+
+        .separator
+            color: rgba(255, 255, 255, 0.75)
+
+.imageWrapper
+    width: 24px
+    height: 24px
+    display: flex
+    align-items: center
+    justify-content: center
+    user-select: none
+
+.separator
+    margin: 0 12px
+    color: $slate
+    font-size: 14px
+    user-select: none
+
+.input
+    flex-grow: 1
+    font-size: 14px
+

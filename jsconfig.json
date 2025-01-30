@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "paths": {
+      "@sass/*": ["assets/sass/*"],
+      "@fonts/*": ["assets/fonts/*"],
+      "@img/*": ["assets/img/*"],
+      "@icons/*": ["assets/icons/*"],
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"]
+    }
+  }
+}

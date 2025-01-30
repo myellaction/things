@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/playfairdisplay_40471b75.module.css"],"sourcesContent":["@font-face {\n    font-family: 'PlayfairDisplay';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22../../src/assets/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.ttf%22,%22preload%22:true,%22has_size_adjust%22:true}') format('truetype');\n    font-display: swap;\n    font-weight: 600;font-style: italic;\n}\n\n@font-face {\n    font-family: 'PlayfairDisplay Fallback';\n    src: local(\"Arial\");\n    ascent-override: 108.64%;\ndescent-override: 25.20%;\nline-gap-override: 0.00%;\nsize-adjust: 99.59%;\n\n}\n\n.className {\n    font-family: 'PlayfairDisplay', 'PlayfairDisplay Fallback';\n    \n}\n.variable {\n    --playfair-display-font: 'PlayfairDisplay', 'PlayfairDisplay Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;;;AAUA;;;;AAIA"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

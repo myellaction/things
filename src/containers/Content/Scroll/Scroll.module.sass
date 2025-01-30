@@ -1,0 +1,25 @@
+.block
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: rgba(14, 181, 83, 0.5)
+    border-radius: 23px
+    width: 46px
+    height: 46px
+    position: fixed
+    bottom: 40px
+    z-index: 5
+    cursor: pointer
+    margin-right: calc(-1 * (100vw - 100%))
+    transition: all 0.3s
+    opacity: 0
+    visibility: hidden
+
+    &_active
+        transition: all 0.3s
+        opacity: 1
+        visibility: visible
+
+    &:hover
+        background-color: rgba(14, 181, 83, 0.7)
+        transition: all 0.3s

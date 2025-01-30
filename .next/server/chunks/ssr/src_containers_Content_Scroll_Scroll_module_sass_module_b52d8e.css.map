@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/containers/Content/Scroll/Scroll.module.sass.module.css"],"sourcesContent":[".block{display:flex;align-items:center;justify-content:center;background-color:rgba(14,181,83,.5);border-radius:23px;width:46px;height:46px;position:fixed;bottom:40px;z-index:5;cursor:pointer;margin-right:calc(-1*(100vw - 100%));transition:all .3s;opacity:0;visibility:hidden}.block_active{transition:all .3s;opacity:1;visibility:visible}.block:hover{background-color:rgba(14,181,83,.7);transition:all .3s}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;AAAoR;;;;;;AAA8D"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

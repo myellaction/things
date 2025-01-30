@@ -1,0 +1,59 @@
+@use '@sass/variables' as *
+
+.items
+    padding-top: 32px
+
+.itemWrapper
+    margin-bottom: 18px
+    display: flex
+    justify-content: space-between
+
+    &:last-child
+        margin-bottom: 0
+
+.item
+    display: flex
+    align-items: center
+
+.imgWrapper
+    width: 24px
+    height: 24px
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-right: 10px
+
+.itemTitle
+    color: #fff
+    font-size: 16px
+    line-height: 110%
+
+.firstItems
+    padding-bottom: 30px
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25)
+
+.secondItems
+    padding: 30px 0
+
+.create
+    display: flex
+    align-items: center
+
+    img
+        width: 32px
+        height: 32px
+
+.createTitle
+    font-size: 12px
+    line-height: 150%
+    color: $green
+    margin-right: 15px
+
+
+//media
+@media(max-width: 575px)
+    .itemTitle
+        font-size: 14px
+        line-height: 128%
+
+

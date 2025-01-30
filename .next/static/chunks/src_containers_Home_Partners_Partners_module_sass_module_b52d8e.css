@@ -1,0 +1,46 @@
+/* [project]/src/containers/Home/Partners/Partners.module.sass.module.css [app-client] (css) */
+.Partners-module-sass-module__7f-vYG__blockTitle {
+  margin-bottom: 40px;
+}
+
+.Partners-module-sass-module__7f-vYG__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Partners-module-sass-module__7f-vYG__item {
+  width: 14.4%;
+  height: auto;
+  margin-right: 5%;
+}
+
+.Partners-module-sass-module__7f-vYG__item:last-child {
+  margin-right: 0;
+}
+
+@media (width <= 991px) {
+  .Partners-module-sass-module__7f-vYG__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+
+  .Partners-module-sass-module__7f-vYG__item {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+@media (width <= 575px) {
+  .Partners-module-sass-module__7f-vYG__items {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Home_Partners_Partners_module_sass_module_b52d8e.css.map*/

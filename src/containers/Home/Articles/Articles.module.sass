@@ -1,0 +1,21 @@
+.block
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(268px, 1fr))
+    gap: 17px
+    margin-bottom: 72px
+
+.button
+    display: flex
+    justify-content: center
+    
+
+//media
+@media(max-width: 991px)
+    .block
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+
+@media(max-width: 575px)
+    .block
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr))
+        margin-bottom: 40px
+

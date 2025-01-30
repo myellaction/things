@@ -1,0 +1,63 @@
+/* [project]/src/containers/Content/SearchPanel/SearchPanel.module.sass.module.css [app-client] (css) */
+.SearchPanel-module-sass-module__5mlhzW__block {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.SearchPanel-module-sass-module__5mlhzW__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.SearchPanel-module-sass-module__5mlhzW__search {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.SearchPanel-module-sass-module__5mlhzW__select {
+  width: 256px;
+  margin-right: 20px;
+}
+
+.SearchPanel-module-sass-module__5mlhzW__button {
+  width: 160px;
+  background-color: #0eb553;
+  height: 50px;
+  border-radius: 8px;
+  color: #fff;
+  transition: all .3s;
+}
+
+.SearchPanel-module-sass-module__5mlhzW__button:hover {
+  opacity: .8;
+  transition: all .3s;
+}
+
+
+/* [project]/src/containers/Content/Search/Search.module.sass.module.css [app-client] (css) */
+.Search-module-sass-module__WAOdga__block {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+.Search-module-sass-module__WAOdga__imageWrapper {
+  padding: 4px;
+}
+
+.Search-module-sass-module__WAOdga__separator {
+  margin: 0 12px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.Search-module-sass-module__WAOdga__input {
+  width: 100%;
+  font-size: 14px;
+}
+
+
+/*# sourceMappingURL=src_containers_Content_5f7ab3._.css.map*/

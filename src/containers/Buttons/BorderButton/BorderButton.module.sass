@@ -1,0 +1,20 @@
+@use '@sass/variables' as *
+
+.button
+    border: 1px solid $green
+    width: 224px
+    height: 40px
+    border-radius: 8px
+    color: $green
+    transition: all 0.3s
+
+    &:hover
+        background-color: $green
+        color: #fff
+        transition: all 0.3s
+
+//media
+@media(max-width: 575px)
+    .button
+        font-size: 14px
+

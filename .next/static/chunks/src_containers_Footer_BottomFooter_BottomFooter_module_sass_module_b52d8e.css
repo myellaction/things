@@ -1,0 +1,85 @@
+/* [project]/src/containers/Footer/BottomFooter/BottomFooter.module.sass.module.css [app-client] (css) */
+.BottomFooter-module-sass-module__IiKAyW__line {
+  background-color: #ffffff40;
+  height: 1px;
+  margin-bottom: 16px;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__copyright {
+  font-size: 14px;
+  color: #0eb553a6;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__documents {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__sep {
+  color: #0eb55373;
+  margin: 0 5px;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__offer, .BottomFooter-module-sass-module__IiKAyW__confident {
+  color: #0eb553d9;
+  transition: all .3s;
+  position: relative;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__offer:before, .BottomFooter-module-sass-module__IiKAyW__confident:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #0eb553d9;
+  bottom: -2px;
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__offer:hover, .BottomFooter-module-sass-module__IiKAyW__confident:hover {
+  color: #0eb55373;
+  text-decoration: none;
+}
+
+.BottomFooter-module-sass-module__IiKAyW__offer:hover:before, .BottomFooter-module-sass-module__IiKAyW__confident:hover:before {
+  width: 0;
+  transition: all .3s;
+}
+
+@media (width <= 991px) {
+  .BottomFooter-module-sass-module__IiKAyW__info {
+    flex-direction: column;
+  }
+
+  .BottomFooter-module-sass-module__IiKAyW__copyright {
+    margin-bottom: 15px;
+  }
+}
+
+@media (width <= 767px) {
+  .BottomFooter-module-sass-module__IiKAyW__line {
+    display: none;
+  }
+}
+
+@media (width <= 575px) {
+  .BottomFooter-module-sass-module__IiKAyW__copyright {
+    text-align: center;
+    font-size: 12px;
+    width: 246px;
+  }
+
+  .BottomFooter-module-sass-module__IiKAyW__documents {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Footer_BottomFooter_BottomFooter_module_sass_module_b52d8e.css.map*/

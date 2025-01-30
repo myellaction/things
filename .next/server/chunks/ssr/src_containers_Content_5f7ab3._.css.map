@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/src/containers/Content/SearchPanel/SearchPanel.module.sass.module.css"],"sourcesContent":[".block{background-color:#fff;padding:20px 0}.wrapper{display:flex;align-items:center}.search{flex-grow:1;margin-right:20px}.select{width:256px;margin-right:20px}.button{width:160px;background-color:#0eb553;height:50px;border-radius:8px;color:#fff;transition:all .3s}.button:hover{opacity:.8;transition:all .3s}"],"names":[],"mappings":"AAAA;;;;;AAA4C;;;;;AAAyC;;;;;AAAsC;;;;;AAAsC;;;;;;;;;AAAyG"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/src/containers/Content/Search/Search.module.sass.module.css"],"sourcesContent":[".block{display:flex;align-items:center;height:50px;border:1px solid #e2e8f0;border-radius:8px;padding:0 12px}.imageWrapper{padding:4px}.separator{margin:0 12px;color:#64748b;font-size:14px}.input{width:100%;font-size:14px}"],"names":[],"mappings":"AAAA;;;;;;;;;AAA6G;;;;AAA0B;;;;;;AAAsD"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

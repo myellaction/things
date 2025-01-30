@@ -1,0 +1,50 @@
+@use '@sass/variables' as *
+
+.wrapper
+    position: relative
+    font-size: 14px
+    user-select: none
+
+.block
+    height: 50px
+    border: 1px solid $border-color
+    border-radius: 8px
+
+    &_active
+        border-bottom-left-radius: 0
+        border-bottom-right-radius: 0
+
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 20px
+    cursor: pointer
+    height: 100%
+
+.items
+    border-bottom-left-radius: 8px
+    border-bottom-right-radius: 8px
+    border-top: none
+    border-right: 1px solid $border-color
+    border-bottom: 1px solid $border-color
+    border-left: 1px solid $border-color
+    background-color: #fff
+    position: absolute
+    width: 100%
+    cursor: pointer
+    overflow-y: scroll
+    overflow-x: hidden
+    max-height: 250px
+    overscroll-behavior-y: none
+    z-index: 2
+
+
+.item
+    padding: 0 20px
+    height: 50px
+    display: flex
+    align-items: center
+
+    &:hover
+        background-color: #e9ebef

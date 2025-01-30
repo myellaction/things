@@ -1,0 +1,51 @@
+/* [project]/src/app/inter_65ba0792.module.css [app-client] (css) */
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter_Regular-s.p.c5a649cc.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter_Bold-s.p.2f59686c.woff") format("woff");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter_SemiBold-s.p.9c59084c.woff") format("woff");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter_Medium-s.p.fc839b65.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter Fallback;
+  src: local(Arial);
+  ascent-override: 90.0%;
+  descent-override: 22.43%;
+  line-gap-override: 0.0%;
+  size-adjust: 107.64%;
+}
+
+.inter_65ba0792-module__3DSbJq__className {
+  font-family: Inter, Inter Fallback;
+}
+
+.inter_65ba0792-module__3DSbJq__variable {
+  --inter-font: "Inter", "Inter Fallback";
+}
+
+/*# sourceMappingURL=src_app_inter_65ba0792_module_b52d8e.css.map*/
