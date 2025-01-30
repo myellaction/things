@@ -1,0 +1,52 @@
+/* [project]/src/containers/Content/Lang/Lang.module.sass.module.css [app-client] (css) */
+.Lang-module-sass-module__s4yeDW__block {
+  display: flex;
+  align-items: center;
+}
+
+.Lang-module-sass-module__s4yeDW__separator {
+  margin: 0 10px;
+}
+
+.Lang-module-sass-module__s4yeDW__separator_black {
+  color: #f2f4f540;
+}
+
+.Lang-module-sass-module__s4yeDW__lang_light, .Lang-module-sass-module__s4yeDW__lang_black {
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.Lang-module-sass-module__s4yeDW__lang_light:hover {
+  color: #64748b;
+  transition: all .3s;
+}
+
+.Lang-module-sass-module__s4yeDW__lang_light_active {
+  color: #64748b;
+}
+
+.Lang-module-sass-module__s4yeDW__lang_black {
+  color: #0eb553;
+}
+
+.Lang-module-sass-module__s4yeDW__lang_black:hover {
+  color: #f2f4f540;
+  transition: all .3s;
+}
+
+.Lang-module-sass-module__s4yeDW__lang_black_active {
+  color: #f2f4f540;
+}
+
+@media (width <= 575px) {
+  .Lang-module-sass-module__s4yeDW__block {
+    font-size: 14px;
+  }
+
+  .Lang-module-sass-module__s4yeDW__separator {
+    margin: 0 11px;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Content_Lang_Lang_module_sass_module_b52d8e.css.map*/

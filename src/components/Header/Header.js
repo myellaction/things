@@ -14,6 +14,7 @@ import classNames from "classnames";
 import Menu from "@containers/Header/Menu/Menu";
 import {useEffect, useState} from "react";
 import SearchMenu from "@containers/Header/SearchMenu/SearchMenu";
+import {disableIosTextFieldZoom} from "@utils/helpers/deviceHook";
 
 const Header = () => {
     const menuItems = ['menu', 'search'];
@@ -29,6 +30,15 @@ const Header = () => {
             document.body.style.overflow = '';
         }
     }, [visibleMenu]);
+
+    useEffect(() => {
+        const checkIsIOS = () =>
+            /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+        if (checkIsIOS()) {
+            disableIosTextFieldZoom();
+        }
+    }, []);
 
     return (
         <div className={classNames("container", styles.container)}>
@@ -61,17 +71,17 @@ const Header = () => {
                         <div className={styles.mobileItems}>
                             <div className={styles.mobileItem} onClick={() => setVisibleMenu('search')}>
                                 <div className={styles.mobileImgWrapper}>
-                                    <Image src={searchImg} alt="search"/>
+                                    <Image src={searchImg} alt="search" priority />
                                 </div>
                             </div>
                             <Link href="/" className={styles.mobileItem}>
                                 <div className={styles.mobileImgWrapper}>
-                                    <Image src={commentImg} alt="chat"/>
+                                    <Image src={commentImg} alt="chat" priority />
                                 </div>
                             </Link>
                             <Link href="/" className={styles.mobileItem}>
                                 <div className={styles.mobileImgWrapper}>
-                                    <Image src={userImg} alt="profile"/>
+                                    <Image src={userImg} alt="profile" priority />
                                 </div>
                             </Link>
                         </div>

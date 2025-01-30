@@ -1,0 +1,10 @@
+/* [project]/src/assets/fonts/PlayfairDisplay/stylesheet.css [app-client] (css, ) */
+@font-face {
+  font-family: Playfair Display;
+  src: local(PlayfairDisplay SemiBoldItalic), local(PlayfairDisplay-SemiBoldItalic), url("../media/PlayfairDisplay-SemiBoldItalic.a784c8b4.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*# sourceMappingURL=src_assets_fonts_PlayfairDisplay_stylesheet_3ffd7f.css.map*/

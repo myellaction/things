@@ -1,0 +1,38 @@
+/* [project]/src/assets/fonts/Inter/stylesheet.css [app-client] (css, ) */
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter-Regular.079e8ca1.eot");
+  src: local(Inter Regular), local(Inter-Regular), url("../media/Inter-Regular.079e8ca1.eot") format("embedded-opentype"), url("../media/Inter-Regular.1472cf17.woff2") format("woff2"), url("../media/Inter-Regular.c5a649cc.woff") format("woff"), url("../media/Inter-Regular.0cedb4a3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter-SemiBold.5c609043.eot");
+  src: local(Inter Semi Bold), local(Inter-SemiBold), url("../media/Inter-SemiBold.5c609043.eot") format("embedded-opentype"), url("../media/Inter-SemiBold.9ea85984.woff2") format("woff2"), url("../media/Inter-SemiBold.9c59084c.woff") format("woff"), url("../media/Inter-SemiBold.e6107b55.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter-Bold.ff18b038.eot");
+  src: local(Inter Bold), local(Inter-Bold), url("../media/Inter-Bold.ff18b038.eot") format("embedded-opentype"), url("../media/Inter-Bold.596f1724.woff2") format("woff2"), url("../media/Inter-Bold.2f59686c.woff") format("woff"), url("../media/Inter-Bold.d489a1bc.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../media/Inter-Medium.dcc1f0e3.eot");
+  src: local(Inter Medium), local(Inter-Medium), url("../media/Inter-Medium.dcc1f0e3.eot") format("embedded-opentype"), url("../media/Inter-Medium.8745370b.woff2") format("woff2"), url("../media/Inter-Medium.fc839b65.woff") format("woff"), url("../media/Inter-Medium.e6831646.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*# sourceMappingURL=src_assets_fonts_Inter_stylesheet_3ffd7f.css.map*/

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/containers/Content/Search/Search.module.sass.module.css"],"sourcesContent":[".block{display:flex;align-items:center;height:50px;border:1px solid #e2e8f0;border-radius:8px;padding:0 12px}.block_mobile{background-color:hsla(0,0%,100%,.2);border:none}.block_mobile .input{background-color:rgba(0,0,0,0);color:#fff}.block_mobile .input:-webkit-autofill,.block_mobile .input:-webkit-autofill:hover,.block_mobile .input:-webkit-autofill:focus{-webkit-text-fill-color:#fff;-webkit-box-shadow:0 0 0px 1000px rgba(0,0,0,0) inset;box-shadow:0 0 0px 1000px rgba(0,0,0,0) inset;transition:background-color 5000s ease-in-out 0s;caret-color:#fff}.block_mobile .input::placeholder{color:hsla(0,0%,100%,.75)}.block_mobile .separator{color:hsla(0,0%,100%,.75)}.imageWrapper{width:24px;height:24px;display:flex;align-items:center;justify-content:center;user-select:none}.separator{margin:0 12px;color:#64748b;font-size:14px;user-select:none}.input{flex-grow:1;font-size:14px}"],"names":[],"mappings":"AAAA;;;;;;;;;AAA6G;;;;;AAA8D;;;;;AAA+D;;;;;;;;AAAiU;;;;AAA4D;;;;AAAmD;;;;;;;;;AAA6G;;;;;;;AAAuE"}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

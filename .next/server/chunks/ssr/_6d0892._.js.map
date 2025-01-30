@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/src/app/layout.js"],"sourcesContent":["import \"@sass/index.sass\";\n\nexport const metadata = {\n  title: \"Коштовності\",\n  description: \"Перетворюємо сміття на коштовності\",\n};\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"uk\">\n    <head>\n      <meta charSet=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n    </head>\n    <body>\n      <div className=\"app\">\n        {children}\n      </div>\n      {/*Eruda*/}\n      <script src=\"//cdn.jsdelivr.net/npm/eruda\"></script>\n      <script>eruda.init();</script>\n    </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;;AAEO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,8OAAC;QAAK,MAAK;;0BACX,8OAAC;;kCACC,8OAAC;wBAAK,SAAQ;;;;;;kCACd,8OAAC;wBAAK,MAAK;wBAAW,SAAQ;;;;;;;;;;;;0BAEhC,8OAAC;;kCACC,8OAAC;wBAAI,WAAU;kCACZ;;;;;;kCAGH,8OAAC;wBAAO,KAAI;;;;;;kCACZ,8OAAC;kCAAO;;;;;;;;;;;;;;;;;;AAId"}},
+    {"offset": {"line": 82, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 93, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Dima/VS%20Projects/12.%20PHP/projects/things/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 95, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

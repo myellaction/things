@@ -1,0 +1,57 @@
+/* [project]/src/containers/Form/Select/Select.module.sass.module.css [app-client] (css) */
+.Select-module-sass-module__3GTIGW__wrapper {
+  position: relative;
+  font-size: 14px;
+  user-select: none;
+}
+
+.Select-module-sass-module__3GTIGW__block {
+  height: 50px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.Select-module-sass-module__3GTIGW__block_active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.Select-module-sass-module__3GTIGW__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.Select-module-sass-module__3GTIGW__items {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top: none;
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  border-left: 1px solid #e2e8f0;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 250px;
+  overscroll-behavior-y: none;
+  z-index: 2;
+}
+
+.Select-module-sass-module__3GTIGW__item {
+  padding: 0 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.Select-module-sass-module__3GTIGW__item:hover {
+  background-color: #e9ebef;
+}
+
+/*# sourceMappingURL=src_containers_Form_Select_Select_module_sass_module_b52d8e.css.map*/

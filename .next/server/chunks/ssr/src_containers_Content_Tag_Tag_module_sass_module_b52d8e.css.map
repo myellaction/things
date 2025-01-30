@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/containers/Content/Tag/Tag.module.sass.module.css"],"sourcesContent":[".block{color:#64748b;font-size:10px;line-height:180%;padding:4px 8px;background-color:#f2f4f5;border-radius:8px}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

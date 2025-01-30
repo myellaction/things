@@ -6,7 +6,7 @@ import Scroll from "@containers/Content/Scroll/Scroll";
 function withAppLayout(BaseComponent) {
     return props => {
         return (
-            <div className={styles.main}>
+            <div className={styles.main} id="main">
                 <Header />
                 <BaseComponent {...props} />
                 <Scroll />

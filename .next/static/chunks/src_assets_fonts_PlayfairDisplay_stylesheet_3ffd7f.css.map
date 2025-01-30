@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/assets/fonts/PlayfairDisplay/stylesheet.css"],"sourcesContent":["@font-face {\n    font-family: 'Playfair Display';\n    src: local('PlayfairDisplay SemiBoldItalic'), local('PlayfairDisplay-SemiBoldItalic'),\n        url('PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');\n    font-weight: 600;\n    font-style: italic;\n    font-display: swap;\n}\n"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

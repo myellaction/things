@@ -1,0 +1,66 @@
+/* [project]/src/containers/Content/PopularCats/PopularCats.module.sass.module.css [app-client] (css) */
+.PopularCats-module-sass-module__trlPRW__cats {
+  margin-bottom: 72px;
+}
+
+.PopularCats-module-sass-module__trlPRW__blockTitle {
+  margin-bottom: 40px;
+}
+
+.PopularCats-module-sass-module__trlPRW__imageWrapper {
+  width: 160px;
+  height: 160px;
+  background-color: #e8ecf1;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.PopularCats-module-sass-module__trlPRW__title {
+  font-size: 17px;
+  text-align: center;
+}
+
+.PopularCats-module-sass-module__trlPRW__button {
+  display: flex;
+  justify-content: center;
+}
+
+@media (width <= 991px) {
+  .PopularCats-module-sass-module__trlPRW__imageWrapper {
+    height: 120px;
+    width: 120px;
+  }
+
+  .PopularCats-module-sass-module__trlPRW__imageWrapper img {
+    transform: scale(.75);
+  }
+}
+
+@media (width <= 575px) {
+  .PopularCats-module-sass-module__trlPRW__blockTitle {
+    margin-bottom: 25px;
+  }
+
+  .PopularCats-module-sass-module__trlPRW__imageWrapper {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 6px;
+  }
+
+  .PopularCats-module-sass-module__trlPRW__imageWrapper img {
+    transform: scale(.56);
+  }
+
+  .PopularCats-module-sass-module__trlPRW__title {
+    font-size: 14px;
+  }
+
+  .PopularCats-module-sass-module__trlPRW__cats {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Content_PopularCats_PopularCats_module_sass_module_b52d8e.css.map*/

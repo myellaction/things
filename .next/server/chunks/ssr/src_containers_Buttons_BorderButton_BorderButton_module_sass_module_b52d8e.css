@@ -1,0 +1,30 @@
+/* [project]/src/containers/Buttons/BorderButton/BorderButton.module.sass.module.css [app-client] (css) */
+.BorderButton-module-sass-module__f5_G2a__button {
+  border: 1px solid #0eb553;
+  width: 224px;
+  height: 40px;
+  border-radius: 8px;
+  color: #0eb553;
+  transition: all .3s;
+}
+
+.BorderButton-module-sass-module__f5_G2a__button:hover {
+  background-color: #0eb553;
+  color: #fff;
+  transition: all .3s;
+}
+
+@media (width <= 1199px) {
+  .BorderButton-module-sass-module__f5_G2a__button:hover {
+    background-color: #0000;
+    color: #0eb553;
+  }
+}
+
+@media (width <= 575px) {
+  .BorderButton-module-sass-module__f5_G2a__button {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=src_containers_Buttons_BorderButton_BorderButton_module_sass_module_b52d8e.css.map*/

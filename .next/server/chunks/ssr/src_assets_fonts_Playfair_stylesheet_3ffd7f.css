@@ -1,0 +1,10 @@
+/* [project]/src/assets/fonts/Playfair/stylesheet.css [app-client] (css, ) */
+@font-face {
+  font-family: Playfair;
+  src: local(Playfair Italic), local(Playfair Italic), url("/_next/static/media/Playfair-Italic.6e77ec09.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*# sourceMappingURL=src_assets_fonts_Playfair_stylesheet_3ffd7f.css.map*/

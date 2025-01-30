@@ -1,0 +1,58 @@
+/* [project]/src/containers/Content/Search/Search.module.sass.module.css [app-client] (css) */
+.Search-module-sass-module__WAOdga__block {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+.Search-module-sass-module__WAOdga__block_mobile {
+  background-color: #fff3;
+  border: none;
+}
+
+.Search-module-sass-module__WAOdga__block_mobile .Search-module-sass-module__WAOdga__input {
+  background-color: #0000;
+  color: #fff;
+}
+
+.Search-module-sass-module__WAOdga__block_mobile .Search-module-sass-module__WAOdga__input:-webkit-autofill, .Search-module-sass-module__WAOdga__block_mobile .Search-module-sass-module__WAOdga__input:-webkit-autofill:hover, .Search-module-sass-module__WAOdga__block_mobile .Search-module-sass-module__WAOdga__input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: inset 0 0 0 1000px #0000;
+  box-shadow: inset 0 0 0 1000px #0000;
+  transition: background-color 5000s ease-in-out;
+  caret-color: #fff;
+}
+
+.Search-module-sass-module__WAOdga__block_mobile .Search-module-sass-module__WAOdga__input::placeholder {
+  color: #ffffffbf;
+}
+
+.Search-module-sass-module__WAOdga__block_mobile .Search-module-sass-module__WAOdga__separator {
+  color: #ffffffbf;
+}
+
+.Search-module-sass-module__WAOdga__imageWrapper {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.Search-module-sass-module__WAOdga__separator {
+  margin: 0 12px;
+  color: #64748b;
+  font-size: 14px;
+  user-select: none;
+}
+
+.Search-module-sass-module__WAOdga__input {
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=src_containers_Content_Search_Search_module_sass_module_b52d8e.css.map*/

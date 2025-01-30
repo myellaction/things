@@ -1,13 +1,16 @@
 @use "normalize.css" as *
 @use "reset.css" as *
 @use "variables.sass" as *
+@import "../fonts/Inter/stylesheet.css"
+@import "../fonts/Playfair/stylesheet.css"
+@import '../fonts/PlayfairDisplay/stylesheet.css'
 
 html
     overflow-x: hidden
     margin-right: calc(-1 * (100vw - 100%))
 
 body
-    font-family: var(--inter-font), sans-serif
+    font-family: 'Inter', sans-serif
     color: $black
     background-color: $bg-color
     touch-action: manipulation

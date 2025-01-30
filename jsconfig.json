@@ -7,7 +7,8 @@
       "@img/*": ["assets/img/*"],
       "@icons/*": ["assets/icons/*"],
       "@components/*": ["components/*"],
-      "@containers/*": ["containers/*"]
+      "@containers/*": ["containers/*"],
+      "@utils/*": ["utils/*"]
     }
   }
 }

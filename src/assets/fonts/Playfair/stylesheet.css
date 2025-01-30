@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Playfair';
+    src: local('Playfair Italic'), local('Playfair Italic'),
+        url('Playfair-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}

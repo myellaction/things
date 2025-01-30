@@ -8,6 +8,7 @@ import img5 from '@img/article/5.png';
 import img6 from '@img/article/6.png';
 import img7 from '@img/article/7.png';
 import img8 from '@img/article/8.png';
+import testImg from '@img/slider/slide1.webp';
 
 import lookImg from '@icons/article/look.svg';
 import giftImg from '@icons/article/gift.svg';
