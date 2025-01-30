@@ -1,15 +1,1 @@
-{
-  "app": {
-    "[project]/src/app/page": [
-      "static/media/Inter_Regular-s.p.c5a649cc.woff",
-      "static/media/Inter_Bold-s.p.2f59686c.woff",
-      "static/media/Inter_SemiBold-s.p.9c59084c.woff",
-      "static/media/Inter_Medium-s.p.fc839b65.woff",
-      "static/media/PlayfairDisplay_SemiBoldItalic-s.p.a784c8b4.ttf",
-      "static/media/Playfair_Italic-s.p.6e77ec09.ttf"
-    ]
-  },
-  "appUsingSizeAdjust": true,
-  "pages": {},
-  "pagesUsingSizeAdjust": false
-}
+{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}

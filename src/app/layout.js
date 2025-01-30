@@ -67,6 +67,9 @@ export default function RootLayout({ children }) {
       <div className="app">
         {children}
       </div>
+      {/*Eruda*/}
+      <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+      <script>eruda.init();</script>
     </body>
     </html>
   );

@@ -3,7 +3,7 @@ const nextConfig = {
     sassOptions: {
         silenceDeprecations: ['legacy-js-api'],
     },
-    output: 'export'
+    //output: 'export'
 };
 
 export default nextConfig;
